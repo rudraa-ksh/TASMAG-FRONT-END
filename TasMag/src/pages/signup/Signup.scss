@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox{
+    margin-bottom: 10px;
+}
+.checkbox-text{
+    font-size:small;
+}
+
+.checkbox-text > b {
+    font-size:smaller;
+}
+
+.divider {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.divider hr {
+    flex: 1;
+}
+
+.google-signin{
+    display: flex;
+    justify-content:center;
+}
