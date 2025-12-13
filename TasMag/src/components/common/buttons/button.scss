@@ -1,0 +1,24 @@
+@import "../../../colors.scss";
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn > button {
+    all: unset;
+    padding: 15px 40px;
+    background-color: $primary;
+    color: $light_highlight;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.full > button {
+    width: 100%;
+}
+
+.inc > button {
+    margin: 10px 0px;
+}

@@ -1,0 +1,89 @@
+.card-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-inner{
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #E1E3E4;
+}
+
+.card {
+    background-color: #F2F2F2;
+    border-radius: 7px;
+    padding: 30px;
+    position: relative;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header> div >  h1{
+    font-size: 25px;
+}
+
+.card-header > div > img{
+    width: 60px;
+    height: 60px;
+}
+
+.avatar-area{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.avatar-outer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E1E3E4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pager{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pager-dot{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #2F3E46;
+}
+
+.active{
+    width: 40px;
+    border-radius: 5px;
+}
+
+.corner{
+    border-radius: 5%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+
+.green{
+    background-color: #3EAF3F;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.yellow{
+    background-color: #E0A106;
+    right: 0;
+    border-top-left-radius: 100%;
+}

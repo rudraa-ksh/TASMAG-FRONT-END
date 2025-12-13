@@ -1,7 +1,9 @@
 import './App.css'
-import CreateAccount from "./components/CreateAccount.jsx"
-// import Landing from './components/Landing.jsx';
+import Signup from "./pages/signup/Signup.jsx"
 import {Route, Routes} from "react-router-dom";
+import Rounded from './components/common/rounded/rounded.jsx';
+import Login from "./pages/login/Login.jsx"
+import Password from "./pages/password/password.jsx"
 
 function App() {
 
@@ -9,12 +11,12 @@ function App() {
     <>
       <Routes>
         {/* <Route path="/" element={<Landing/>}/> */}
-        <Route path="/" element ={<CreateAccount/>}/>
+        <Route path="/" element ={<Signup/>}/>
+        <Route path="/login" element ={<Login/>}/>
+        <Route path="/password" element ={<Password/>}/>
       </Routes>
       <div className='mode'>
-          <div className='mode-inner'>
-            <span class="material-symbols-outlined">dark_mode</span>
-          </div>
+          <Rounded name="dark_mode"/>
       </div>
     </>
   )

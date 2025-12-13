@@ -3,13 +3,3 @@
     bottom: 15px;
     left: 15px;
 }
-
-.mode-inner{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #E1E3E4;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
