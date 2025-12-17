@@ -1,0 +1,42 @@
+.corner{
+    border-radius: 5%;
+    width: 60px;
+    height: 120px;
+    position: absolute;
+}
+
+.green{
+    background-color: #3EAF3F;
+    left: 0;
+    top: 40%;
+    border-radius: 0 100px 100px 0;
+}
+
+.yellow{
+    background-color: #E0A106;
+    right: 0;
+    top: 40%;
+    border-radius: 100px 0 0 100px;
+}
+
+.select{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 65px;
+}
+
+.option > img{
+    width: 75px;
+    height: 75px;
+}
+
+.option{
+    width: 105px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #E1E3E4;
+}
