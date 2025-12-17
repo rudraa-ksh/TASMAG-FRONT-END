@@ -1,0 +1,19 @@
+.cardouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cardinner{
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #E1E3E4;
+}
+
+.card {
+    background-color: #F2F2F2;
+    border-radius: 7px;
+    padding: 30px;
+    position: relative;
+}

@@ -1,0 +1,57 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox{
+    margin-bottom: 10px;
+}
+.checkbox_text{
+    font-size:small;
+}
+
+.checkbox_text > b {
+    font-size:smaller;
+}
+
+.divider {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.divider hr {
+    flex: 1;
+}
+
+.google_signin{
+    display: flex;
+    justify-content:center;
+}
+
+.corner{
+    border-radius: 5%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+
+.green{
+    background-color: #3EAF3F;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.yellow{
+    background-color: #E0A106;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+
+.avatar_area{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+.avatar_area{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.divider hr {
+    flex: 1;
+}
+
+.google_signin{
+    display: flex;
+    justify-content:center;
+}
+
+#forgot{
+    text-decoration: underline;
+    font-size: smaller;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.corner{
+    border-radius: 5%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+
+.green{
+    background-color: #3EAF3F;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.yellow{
+    background-color: #E0A106;
+    right: 0;
+    border-top-left-radius: 100%;
+}

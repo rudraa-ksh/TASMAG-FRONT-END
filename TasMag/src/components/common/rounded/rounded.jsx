@@ -1,8 +1,8 @@
-import "./rounded.scss"
+import style from "./Rounded.module.scss"
 
 export default function Rounded(icon){
     return (
-        <div className="round-outer">
+        <div className={style.roundouter}>
             <span class="material-symbols-outlined">{icon.name}</span>
         </div>
     )
